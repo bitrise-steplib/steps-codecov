@@ -25,3 +25,8 @@ inputs:
         Codecov.io repository upload token
       is_required: true
       is_expand: true
+  - package:
+    opts:
+      title: "Packages"
+      description: |
+        Specify packages to build coverage. Will append as option `-J`
