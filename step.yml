@@ -2,14 +2,18 @@ title: Codecov
 summary: |-
   Upload your code coverage files to Codecov.io
 description: |-
-  Reduce technical debt with visualized test performance, faster code reviews and workflow enhancements. You can now upload your code coverage files to Codecov every time you kick off a build!
+  Reduce technical debt with visualized test performance,
+  faster code reviews and workflow enhancements.
+  You can now upload your code coverage files to Codecov every time you kick off a build!
 website: https://github.com/bitrise-io/codecov
 source_code_url: https://github.com/bitrise-io/codecov
 support_url: https://github.com/bitrise-io/codecov/issues
 host_os_tags:
-  - "osx-10.10"
+  - osx-10.10
+  - ubuntu-14.04
 project_type_tags:
   - ios
+  - android
 type_tags:
   - build
   - xcode
@@ -24,4 +28,3 @@ inputs:
       description: |
         Codecov.io repository upload token
       is_required: true
-      is_expand: true
