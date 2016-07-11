@@ -32,6 +32,7 @@ inputs:
     opts:
       title: Additional options for Codecov call
       description: |-
-        Options added to the end of the Gradle call.
-        You can use multiple options, separated by a space
+        Options to pass along to the Codecov uploader.
+        You can use multiple options, separated by a space.
+        Review all options at https://github.com/codecov/codecov-bash
         character. Example: `--codecov -F unittests -J '^Project'`
