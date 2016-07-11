@@ -2,4 +2,4 @@
 
 set -e
 
-bash <(curl -s https://codecov.io/bash) ${codecov}
+bash <(curl -s https://codecov.io/bash) ${other_options}
