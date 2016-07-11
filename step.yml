@@ -28,7 +28,7 @@ inputs:
       description: |
         Codecov.io repository upload token
       is_required: true
-  - codecov: "--codecov"
+  - other_options: "--codecov"
     opts:
       title: Additional options for Codecov call
       description: |-
