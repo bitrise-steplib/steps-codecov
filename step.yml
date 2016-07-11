@@ -28,3 +28,11 @@ inputs:
       description: |
         Codecov.io repository upload token
       is_required: true
+  - codecov: "--codecov"
+    opts:
+      title: Additional options for Codecov call
+      description: |-
+        Options to pass along to the Codecov uploader.
+        You can use multiple options, separated by a space.
+        Review all options at https://github.com/codecov/codecov-bash
+        Example: `--codecov -F unittests -J '^Project'`
