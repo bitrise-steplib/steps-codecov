@@ -3,12 +3,10 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 
 app:
   envs:
-  # define these in your .bitrise.secrets.yml
-  - BITRISE_PROJECT_PATH: example-swift.xcodeproj
-  - BITRISE_SCHEME: example-swift
   - SAMPLE_APP_REPOSITORY_URL: https://github.com/bitrise-samples/example-swift.git
   - SAMPLE_APP_CLONE_INTO_DIR: "./_tmp/example-swift"
 
+  # define these in your .bitrise.secrets.yml
   - CODECOV_TOKEN: $CODECOV_TOKEN
   - OPTIONS: $OPTIONS
 
