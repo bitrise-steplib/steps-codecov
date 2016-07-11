@@ -28,3 +28,10 @@ inputs:
       description: |
         Codecov.io repository upload token
       is_required: true
+  - codecov: "--codecov"
+    opts:
+      title: Additional options for Codecov call
+      description: |-
+        Options added to the end of the Gradle call.
+        You can use multiple options, separated by a space
+        character. Example: `--codecov -F unittests -J '^Project'`
