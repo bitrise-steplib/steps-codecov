@@ -1,6 +1,12 @@
-## Changelog (Current version: 1.1.0)
+## Changelog (Current version: 1.1.1)
 
 -----------------
+
+### 1.1.1 (2016 Jul 13)
+
+* [9d93dee] prepare for 1.1.1
+* [0f924a8] Merge pull request #5 from stevepeak/patch-2
+* [0df5daf] Add argument to exit 1 upon failure
 
 ### 1.1.0 (2016 Jul 11)
 
@@ -22,4 +28,4 @@
 
 -----------------
 
-Updated: 2016 Jul 11
+Updated: 2016 Jul 13
