@@ -1,6 +1,11 @@
-## Changelog (Current version: 1.1.1)
+## Changelog (Current version: 1.1.2)
 
 -----------------
+
+### 1.1.2 (2016 Jul 15)
+
+* [a961cc8] prepare for 1.1.2
+* [db7a277] remove unnecessary flag
 
 ### 1.1.1 (2016 Jul 13)
 
@@ -28,4 +33,4 @@
 
 -----------------
 
-Updated: 2016 Jul 13
+Updated: 2016 Jul 15
