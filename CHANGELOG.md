@@ -1,6 +1,12 @@
-## Changelog (Current version: 1.1.2)
+## Changelog (Current version: 1.1.3)
 
 -----------------
+
+### 1.1.3 (2016 Jul 18)
+
+* [94d1e3b] prepare for 1.1.3
+* [2d87e25] Merge pull request #6 from stevepeak/patch-3
+* [5d9ced0] remove `--codecov` from other_options
 
 ### 1.1.2 (2016 Jul 15)
 
@@ -33,4 +39,4 @@
 
 -----------------
 
-Updated: 2016 Jul 15
+Updated: 2016 Jul 18
