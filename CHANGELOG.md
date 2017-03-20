@@ -1,6 +1,11 @@
-## Changelog (Current version: 1.1.3)
+## Changelog (Current version: 1.1.4)
 
 -----------------
+
+### 1.1.4 (2017 Mar 20)
+
+* [3400cc3] Prepare for 1.1.4
+* [0def83d] Fix CI (#10)
 
 ### 1.1.3 (2016 Jul 18)
 
@@ -39,4 +44,4 @@
 
 -----------------
 
-Updated: 2016 Jul 18
+Updated: 2017 Mar 20
