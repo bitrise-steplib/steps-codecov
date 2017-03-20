@@ -18,19 +18,6 @@ workflows:
         title: Step audit
         inputs:
         - content: stepman audit --step-yml=./step.yml
-    # - script:
-    #     title: Git clone sample app
-    #     inputs:
-    #     - content: |
-    #         #!/bin/bash
-    #         set -e
-    #         set -x
-
-    #         if [ -e $SAMPLE_APP_CLONE_INTO_DIR ] ; then
-    #           rm -rf $SAMPLE_APP_CLONE_INTO_DIR
-    #         fi
-
-    #         git clone $SAMPLE_APP_REPOSITORY_URL $SAMPLE_APP_CLONE_INTO_DIR
     - change-workdir:
         title: Switch working dir to proj dir
         description: |-
