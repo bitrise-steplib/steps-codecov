@@ -23,6 +23,7 @@ inputs:
       description: |
         Codecov.io repository upload token
       is_required: true
+      is_sensitive: true
   - other_options: 
     opts:
       title: Additional options for Codecov call
