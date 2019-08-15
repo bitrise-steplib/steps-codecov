@@ -24,7 +24,7 @@ inputs:
         Codecov.io repository upload token
       is_required: true
       is_sensitive: true
-  - other_options: 
+  - other_options: "-C $BITRISE_GIT_COMMIT"
     opts:
       title: Additional options for Codecov call
       description: |-
