@@ -1,3 +1,10 @@
+# DEPRECATED
+
+The step owner has been changed, and from now on Codecov is responsible for developing the Bitrise Codecov step.
+
+This repository is deprecated and will not receive any code change.
+You can find the new active repository [here](https://github.com/codecov/codecov-bitrise)
+
 # Codecov integration
 
 [Codecov](https://codecov.io) integration
